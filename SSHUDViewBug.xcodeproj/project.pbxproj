@@ -16,7 +16,49 @@
 		2EBBA7C4164B73F10079E4B0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EBBA7C3164B73F10079E4B0 /* Default.png */; };
 		2EBBA7C6164B73F10079E4B0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EBBA7C5164B73F10079E4B0 /* Default@2x.png */; };
 		2EBBA7C8164B73F10079E4B0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EBBA7C7164B73F10079E4B0 /* Default-568h@2x.png */; };
+		2EBBA7D0164B74160079E4B0 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBBA7CF164B74160079E4B0 /* RootViewController.m */; };
+		2EBBA7E6164B74730079E4B0 /* SSToolkitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2EBBA7E1164B74600079E4B0 /* SSToolkitResources.bundle */; };
+		2EBBA7E7164B747A0079E4B0 /* libSSToolkit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EBBA7DD164B74600079E4B0 /* libSSToolkit.a */; };
+		2EBBA7EA164B74C10079E4B0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EBBA7E8164B74B70079E4B0 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2EBBA7DC164B74600079E4B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EBBA7D2164B74600079E4B0 /* SSToolkit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = SSToolkit;
+		};
+		2EBBA7DE164B74600079E4B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EBBA7D2164B74600079E4B0 /* SSToolkit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B239101D1357DC3E00ADE21B;
+			remoteInfo = SSToolkitTests;
+		};
+		2EBBA7E0164B74600079E4B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EBBA7D2164B74600079E4B0 /* SSToolkit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B2C507EA151BA64400E94614;
+			remoteInfo = SSToolkitResources;
+		};
+		2EBBA7E2164B74690079E4B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EBBA7D2164B74600079E4B0 /* SSToolkit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = SSToolkit;
+		};
+		2EBBA7E4164B746B0079E4B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EBBA7D2164B74600079E4B0 /* SSToolkit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B2C507E9151BA64400E94614;
+			remoteInfo = SSToolkitResources;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2EBBA7AD164B73F10079E4B0 /* SSHUDViewBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSHUDViewBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -32,6 +74,10 @@
 		2EBBA7C3164B73F10079E4B0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		2EBBA7C5164B73F10079E4B0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		2EBBA7C7164B73F10079E4B0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2EBBA7CE164B74160079E4B0 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		2EBBA7CF164B74160079E4B0 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		2EBBA7D2164B74600079E4B0 /* SSToolkit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SSToolkit.xcodeproj; path = Vendor/SSToolkit/SSToolkit.xcodeproj; sourceTree = "<group>"; };
+		2EBBA7E8164B74B70079E4B0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,9 +85,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EBBA7E7164B747A0079E4B0 /* libSSToolkit.a in Frameworks */,
 				2EBBA7B2164B73F10079E4B0 /* UIKit.framework in Frameworks */,
 				2EBBA7B4164B73F10079E4B0 /* Foundation.framework in Frameworks */,
 				2EBBA7B6164B73F10079E4B0 /* CoreGraphics.framework in Frameworks */,
+				2EBBA7EA164B74C10079E4B0 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				2EBBA7B7164B73F10079E4B0 /* SSHUDViewBug */,
+				2EBBA7D1164B74440079E4B0 /* Vendor */,
 				2EBBA7B0164B73F10079E4B0 /* Frameworks */,
 				2EBBA7AE164B73F10079E4B0 /* Products */,
 			);
@@ -68,6 +117,7 @@
 		2EBBA7B0164B73F10079E4B0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2EBBA7E8164B74B70079E4B0 /* QuartzCore.framework */,
 				2EBBA7B1164B73F10079E4B0 /* UIKit.framework */,
 				2EBBA7B3164B73F10079E4B0 /* Foundation.framework */,
 				2EBBA7B5164B73F10079E4B0 /* CoreGraphics.framework */,
@@ -81,6 +131,8 @@
 				2EBBA7C0164B73F10079E4B0 /* AppDelegate.h */,
 				2EBBA7C1164B73F10079E4B0 /* AppDelegate.m */,
 				2EBBA7B8164B73F10079E4B0 /* Supporting Files */,
+				2EBBA7CE164B74160079E4B0 /* RootViewController.h */,
+				2EBBA7CF164B74160079E4B0 /* RootViewController.m */,
 			);
 			path = SSHUDViewBug;
 			sourceTree = "<group>";
@@ -99,6 +151,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		2EBBA7D1164B74440079E4B0 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				2EBBA7D2164B74600079E4B0 /* SSToolkit.xcodeproj */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		2EBBA7D3164B74600079E4B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EBBA7DD164B74600079E4B0 /* libSSToolkit.a */,
+				2EBBA7DF164B74600079E4B0 /* SSToolkitTests.app */,
+				2EBBA7E1164B74600079E4B0 /* SSToolkitResources.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -113,6 +183,8 @@
 			buildRules = (
 			);
 			dependencies = (
+				2EBBA7E5164B746B0079E4B0 /* PBXTargetDependency */,
+				2EBBA7E3164B74690079E4B0 /* PBXTargetDependency */,
 			);
 			name = SSHUDViewBug;
 			productName = SSHUDViewBug;
@@ -138,12 +210,42 @@
 			mainGroup = 2EBBA7A2164B73F10079E4B0;
 			productRefGroup = 2EBBA7AE164B73F10079E4B0 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 2EBBA7D3164B74600079E4B0 /* Products */;
+					ProjectRef = 2EBBA7D2164B74600079E4B0 /* SSToolkit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				2EBBA7AC164B73F10079E4B0 /* SSHUDViewBug */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		2EBBA7DD164B74600079E4B0 /* libSSToolkit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSSToolkit.a;
+			remoteRef = 2EBBA7DC164B74600079E4B0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2EBBA7DF164B74600079E4B0 /* SSToolkitTests.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SSToolkitTests.app;
+			remoteRef = 2EBBA7DE164B74600079E4B0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2EBBA7E1164B74600079E4B0 /* SSToolkitResources.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SSToolkitResources.bundle;
+			remoteRef = 2EBBA7E0164B74600079E4B0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		2EBBA7AB164B73F10079E4B0 /* Resources */ = {
@@ -154,6 +256,7 @@
 				2EBBA7C4164B73F10079E4B0 /* Default.png in Resources */,
 				2EBBA7C6164B73F10079E4B0 /* Default@2x.png in Resources */,
 				2EBBA7C8164B73F10079E4B0 /* Default-568h@2x.png in Resources */,
+				2EBBA7E6164B74730079E4B0 /* SSToolkitResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,10 +269,24 @@
 			files = (
 				2EBBA7BE164B73F10079E4B0 /* main.m in Sources */,
 				2EBBA7C2164B73F10079E4B0 /* AppDelegate.m in Sources */,
+				2EBBA7D0164B74160079E4B0 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2EBBA7E3164B74690079E4B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SSToolkit;
+			targetProxy = 2EBBA7E2164B74690079E4B0 /* PBXContainerItemProxy */;
+		};
+		2EBBA7E5164B746B0079E4B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SSToolkitResources;
+			targetProxy = 2EBBA7E4164B746B0079E4B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		2EBBA7BA164B73F10079E4B0 /* InfoPlist.strings */ = {
@@ -238,7 +355,12 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SSHUDViewBug/SSHUDViewBug-Prefix.pch";
+				HEADER_SEARCH_PATHS = Vendor/SSToolkit;
 				INFOPLIST_FILE = "SSHUDViewBug/SSHUDViewBug-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -249,7 +371,12 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SSHUDViewBug/SSHUDViewBug-Prefix.pch";
+				HEADER_SEARCH_PATHS = Vendor/SSToolkit;
 				INFOPLIST_FILE = "SSHUDViewBug/SSHUDViewBug-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
