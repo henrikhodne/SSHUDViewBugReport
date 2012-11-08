@@ -1,0 +1,1 @@
+This repository is example code for the bug soffes/sstoolkit#147.
